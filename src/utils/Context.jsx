@@ -26,8 +26,6 @@ const Context = ({ children }) => {
 
   useEffect(() => {
     axios(url).then((res) => {
-      console.log(res.data);
-      // setList(res.data);
       dispatch({ type: "GET_DENTIST", payload: res.data });
     });
   }, []);
