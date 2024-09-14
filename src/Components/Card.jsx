@@ -10,7 +10,7 @@ const Card = ({ name, username, id, theme }) => {
       {/* No debes olvidar que la Card a su vez servira como Link hacia la pagina de detalle */}
       <Link to={`/detail/${id}`} className="flex flex-col justify-around items-center ">
         <img
-          src="../../public/images/doctor.jpg"
+          src="/images/doctor.jpg"
           alt="imageDentist"
           className="w-full h-[200px] object-cover mb-4 rounded-md"
         />

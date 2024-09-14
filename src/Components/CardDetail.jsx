@@ -4,7 +4,7 @@ const CardDetail = ( { name, email, phone, website, theme }) => {
   return (
     <div className={`flex-col justify-around items-center border-solid border-2 rounded-lg shadow-md p-4 ${cardStyles}`}>
       <img
-        src="../../public/images/doctor.jpg"
+        src="/images/doctor.jpg"
         alt="imgDentist"
         className="w-full h-[300px] object-cover mb-4 rounded-md"
       />
